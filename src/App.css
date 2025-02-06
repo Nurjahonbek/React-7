@@ -1,0 +1,139 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+body{
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* background-color: #A9C9FF; */
+  background-color: #FFBBEC ;
+  background-image: linear-gradient(100deg, #A9C9FF 0%, #FFBBEC 100%);
+}
+.container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+.box {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.counter {
+  margin-top: 30px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #4e4646;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.list li{
+  display: flex; 
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #15101C;
+  background-color: #282033;
+  border-radius: 10px;
+  width: 89%;
+  align-items: center;
+  font-size: 18px;
+  color: #9E78CF;
+}
+.list1 li{
+  text-decoration: line-through;
+  color: #78cfb0;
+  
+}
+
+h1{
+  margin-left: 120px;
+  color:  #42224298;
+  margin-bottom: 25px;
+  font-size: 40px;
+}
+h1 span{
+  color: #50af7be8;
+}
+button{
+  border: none;
+  display: flex;
+  border-radius: 30px;
+  background-color:transparent;
+  cursor: pointer;
+
+}
+.btn-box{
+  display: flex;
+  align-items: center;
+  
+}
+.btn-box button:first-child{
+  margin-right: 18px;
+}
+button:hover{
+  opacity: 0.55;
+}
+#text{
+  width: 380px;
+  padding: 15px 18px;
+  background-color: transparent;
+  border: none;
+  outline: #3E1671;
+  border: 1px solid #3E1671;
+  color: #685586;
+  border-radius: 10px;
+  font-size: 18px;
+
+}
+
+
+
+.gif{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background:#fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+} 
+.gif{
+  animation:vanish 3s forwards ;
+}
+@keyframes vanish {
+  100%{
+      opacity: 0;
+      visibility: hidden;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .container{
+  max-width: 400px;
+  padding: 60px 22px;
+  }
+  h1{
+      text-align: center;
+      margin: 20px auto;
+  }
+  #text{
+      margin-right: -10px;
+      padding: 13px 15px;
+  }
+  .list li{
+      width: 100%;
+  }
+}
