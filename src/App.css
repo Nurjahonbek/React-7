@@ -40,7 +40,6 @@ body{
   justify-content: space-between;
   margin: 10px 0;
   padding: 15px;
-  background-color: #15101C;
   background-color: #282033;
   border-radius: 10px;
   width: 89%;
@@ -120,10 +119,10 @@ button:hover{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
   .container{
   max-width: 400px;
-  padding: 60px 22px;
+  padding: 60px 27px;
   }
   h1{
       text-align: center;
