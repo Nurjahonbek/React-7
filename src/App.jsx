@@ -113,7 +113,7 @@ function App() {
     return (
       <div>
         <div className="container">
-        <div class="gif">
+        <div className="gif">
         <img src='https://pichold.ru/wp-content/uploads/2022/11/%D0%BA%D0%B5%D0%BA%D0%BF-54.gif' />
         </div>
           <h1><span>T</span>o<span>d</span>o <span>A</span>pp</h1>
