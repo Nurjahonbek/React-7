@@ -5,6 +5,7 @@
   transition: 0.3s;
 }
 body{
+  overflow-y: hidden;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
